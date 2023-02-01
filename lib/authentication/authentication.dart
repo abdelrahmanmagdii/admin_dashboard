@@ -15,7 +15,6 @@ class FirebaseAuthenticationService implements AuthenticationService {
   FirebaseApp firebaseApp;
 
 
-  //final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
 
   @override
   Future<String?> emailLogin(String email, String password) async {
